@@ -1,21 +1,157 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+
 .header {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    color: #f9fAF8;
+    background-color: #1f2937;
+    padding: 20px 0px 20px 100px;
+
+}
+
+.headerlogo {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.right-links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px, 100px, 0px, 0px;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #f9fAF8;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/**/
+
+.secondpart {
+    display: flex;
+    color: #f9faf8;
+    background: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.underheader {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.underheader button {
+    display: block;
+    text-align: center;
+    border: none;
+    width: 110px;
+    background: #3882f6;
+    padding: 10px;
     color: white;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.imageplacement {
+    width: 500px;
+    height: 350px;
+}
+
+/* .headerlogo {
+    width: 84px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .underheader {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     color: white;
+    padding: 90px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
 }
 
 .imageplacement {
     display: flex;
-
+    width: 500px;
+    height: 350px;
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
     background-color: #1f2937;
 }
+.underheader button {
+    text-align: center;
+    width: 110px;
+    background-color: #3882f6;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-right: 12px;
+    margin-left: auto;
+} */
